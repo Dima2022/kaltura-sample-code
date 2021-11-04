@@ -44,4 +44,4 @@ jobs:
         echo Unified Agent downloaded successfully
         WARFILE=$(find ./ -type f -wholename "*/target/*.war")
         echo $WARFILE will be added to appPath
-        java -jar wss-unified-agent.jar -appPath ./target/kaltura-integration.jar -d ./
+        java -jar wss-unified-agent.jar -appPath ./target/kaltura-integration-1.0.jar -d ./
